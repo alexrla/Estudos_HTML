@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estudos - HTML</title>
+    </head>
+    <body>
+        <!-- Cabeçalhos -->
+        <h1>Nível 1</h1>
+        <h2>Nível 2</h2>
+        <h3>Nível 3</h3>
+        <h4>Nível 4</h4>
+        <h5>Nível 5</h5>
+        <h6>Nível 6</h6>
+
+        <br><hr><br>
+
+        <!-- Parágrafos -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quis.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vero perspiciatis excepturi, ut at dignissimos.</p>
+
+        <br><hr><br>
+
+        <!-- Texto em negrito -->
+        <p><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Hic, <strong>ducimus</strong>?</p>
+
+        <br><hr><br>
+
+        <!-- Texto em itálico -->
+        <p><i>Lorem ipsum</i> dolor sit amet consectetur adipisicing elit. Hic, <em>ducimus</em>?</p>
+
+        <br><hr><br>
+
+        <!-- Imagens -->
+        <img src="./img/artem-labunsky-Sf5rOkzV-qc-unsplash.jpg" alt="imagem-1" width="500" height="400">
+        <img src="./img/petr-slovacek-05y235RKPwo-unsplash.jpg" alt="imagem-2" width="500" height="400">
+        <img src="./img/valeriia-neganova-Zuw9FJ8T1os-unsplash.jpg" alt="imagem-3" width="500" height="400">
+        <img src="./img/wolfgang-hasselmann-tQxcMg7ld4o-unsplash.jpg" alt="imagem-4" width="500" height="400">
+
+        <br><br><hr><br>
+
+        <!-- Links -->
+        <p>
+            Acesse o Google, <a href="https://www.google.com/">clicando aqui!</a>
+        </p>
+
+        <p>
+            Acesse o Google em uma nova guia, <a href="https://www.google.com/" target="_blank">clicando aqui!</a>
+        </p>
+
+        <p>Acesse o Google, clicando na imagem a seguir:</p>
+        <a href="https://www.google.com/">
+            <img src="./img/daniel-castellon--kZ0mXkhpi4-unsplash.jpg" alt="Lua" width="500" height="400">
+        </a>
+
+        <br><br><hr><br>
+
+        <!-- Tabela -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>Silva</td>
+                    <td>joaosilva@email.com</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo</td>
+                    <td>Lins</td>
+                    <td>rodrigolins@email.com</td>
+                </tr>
+                <tr>
+                    <td>Isabel</td>
+                    <td>Texeira</td>
+                    <td>isabelteixeira@email.com</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Andrade</td>
+                    <td>luisandrade@email.com</td>
+                </tr>
+                <tr>
+                    <td>Vanessa</td>
+                    <td>Rodrigues</td>
+                    <td>vanessarodrigues@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><hr><br>
+
+        <!-- Formulário -->
+        <form action="#">
+            <!-- Atributo action: para onde queremos mandar o formulário -->
+            <div>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" placeholder="nome">
+            </div><br>
+            <div>
+                <label for="sobrenome">Sobreome:</label><br>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+            </div><br>
+            <div>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" placeholder="email">
+            </div><br>
+            <div>
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" id="senha" placeholder="senha">
+            </div><br>
+            <div>
+                <label for="genero">Gênero:</label>
+                <select name="genero" id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                    <option value="naoDizer">Prefiro não dizer</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div><br>
+            <div>
+                <label for="mensagem">Nos envie uma mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div><br>
+            <input type="submit" value="Realizar cadastro">
+        </form>
+
+        <br><hr><br>
+
+        <!-- Botão -->
+        <button>Clique aqui!</button>
+
+        <br><br><hr><br>
+
+        <!-- Citação -->
+        <blockquote cite="https://www.nomedosite.com/">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel explicabo, quibusdam voluptas aspernatur obcaecati laboriosam labore sit quas quis, maxime fugiat, expedita eos deleniti!
+        </blockquote>
+
+        <br><hr><br>
+
+        <!-- Abreviação -->
+        <p>
+            <abbr title="HyperText Markup Language">HTML</abbr>
+        </p>
+        <p>
+            <abbr title="Cascading Style Sheets">CSS</abbr>
+        </p>
+    </body>
+</html>
