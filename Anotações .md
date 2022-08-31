@@ -16,14 +16,20 @@
 - **No \<body> temos o conteúdo que fica visível ao usuário: cabeçalhos, parágrafos, imagens, etc.;**
   
 - **Por padrão, o navegador adiciona estilos aos elementos HTML;**
-  
+
+- **Elemento HTML:**
+  ```
+  <identificador_da_tag>conteúdo...</identificador_da_tag>
+  ```
+  - **OBS.: Alguns elmentos HTML não envolvem nenhum tipo de conteúdo e consequentemente, não possuem tag final/de fechamento (elementos vazios);**
+
 - **Elementos _inline_: não iniciam em uma nova linha e ocupam apenas a largura necessária (\<a>, \<img>, etc.);**
   
 - **Elementos _block_: iniciam em uma nova e ocupam toda a largura da tela (\<h1>, \<p>, etc.);**
   
   
 ### Atributos
-- **Todas os elementos HTML podem ter atributos;**
+- **Alguns elementos HTML podem ter atributos;**
 
 - **Os atributos fornecem informações adicionais, aos elementos HTML;**
 
