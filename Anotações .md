@@ -25,7 +25,7 @@
 
 - **Elementos _inline_: não iniciam em uma nova linha e ocupam apenas a largura necessária (\<a>, \<img>, etc.);**
   
-- **Elementos _block_: iniciam em uma nova e ocupam toda a largura da tela (\<h1>, \<p>, etc.);**
+- **Elementos _block_: iniciam em uma nova linha e ocupam toda a largura da tela (\<h1>, \<p>, etc.);**
   
   
 ### Atributos
